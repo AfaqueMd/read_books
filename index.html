@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Books</title>
+    <style>
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            text-align: center;
+        }
+        hr{
+            width: 60%;
+        }
+        table{
+            font-size: 30px;
+            width: 60%;
+            height: 400px;
+            text-align: justify;
+            
+        }
+        table>*{
+            border: 1px solid black;
+        }
+        #read{
+           width:10%; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Read Books</h1>
+    <hr>
+    <div>
+    <table>
+        <thead>
+            <tr>
+                <th>Book</th>
+                <th>Author</th>
+                <th id="read">Read</th>
+                <th>Pages</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Introduction to Python</td>
+                <td>Udayan Das, Aubrey Lawson</td>
+                <td><a href="intoPython.html">Read</a></td>
+                <td>415 pages</td>
+            </tr>
+            <tr>
+                <td>JavaScript for beginners</td>
+                <td>Martin Richards</td>
+                <td><a href="javascript.html">Read</a></td>
+                <td>130 pages</td>
+            </tr>
+            <tr>
+                <td>Data Structures and Algorithm</td>
+                <td>Daniel Winterstein</td>
+                <td><a href="dataStructures.html">Read</a></td>
+                <td>80 pages</td>
+            </tr>
+            <tr>
+                <td>R Programming</td>
+                <td>Robin Evans</td>
+                <td><a href="R_programming.html">Read</a></td>
+                <td>105 pages</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
